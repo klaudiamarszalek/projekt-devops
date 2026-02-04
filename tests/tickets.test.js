@@ -22,4 +22,4 @@ it('POST /tickets powinno dodać nowe zgłoszenie', async () => {
   expect(response.statusCode).toBe(201);
   expect(response.body).toHaveProperty('id');
   expect(response.body.status).toBe('OPEN');
-});
+})
