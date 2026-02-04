@@ -54,6 +54,7 @@ app.put('/tickets/:id/close', (req, res) => {
 });
 
 
+//zmiana
 
 const PORT = 3000;
 app.listen(PORT, () => {
